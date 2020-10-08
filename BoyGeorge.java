@@ -1,16 +1,9 @@
 package BoyGeorge;
 import robocode.*;
 import java.awt.Color;
+
 public class BoyGeorge extends AdvancedRobot 
 {
-	//Fabiana Quelott Lopes Cançado - 119214091		
-	//Lucas Vilas Boas Lage - 119119592	
-	//Mariana Santos Abreu - 119122204
-	//Eve Clair Ulrik Pavie - 119122204
-    //Fernando Lucas Souza Lopes - 119124309
-
-
-
 	public void run() {
 		setBodyColor(new Color(0, 0, 0)); //Cor do corpo do robô (Preto, preto, preto)
         setGunColor(new Color(0, 0, 0)); //Cor da arma do robô (Preto, preto, preto)
@@ -51,8 +44,6 @@ public class BoyGeorge extends AdvancedRobot
 			//Robo gira quando vence a batalha
 		}
 	}	
-	
- 
 }
 
 	
